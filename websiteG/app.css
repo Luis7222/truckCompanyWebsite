@@ -1,0 +1,147 @@
+body {
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  section {
+    padding: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .slide-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  #slideshow img.show {
+    opacity: 1;
+  }
+  
+  img {
+    width: 700px;
+    height: 450px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px #ccc;
+    margin-bottom: 20px;
+  }
+
+  
+  .slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+
+  .service {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-bottom: 20px;
+
+    @media screen {
+        display: center;
+        width: 100%;
+        border-radius: 100px;
+        box-shadow: 2px 2px 5px #ccc;
+        margin-bottom: 20px;
+        
+    }
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
+  .logo{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .logo img{
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-bottom: 5px;
+  }
+  
